@@ -1,6 +1,6 @@
 # SwipeBackDemo
 #[![](https://jitpack.io/v/Achenglove/SwipeBackDemo.svg)](https://jitpack.io/#Achenglove/SwipeBackDemo)
-侧滑关闭Activity依赖库，使用简单，几行代码解决你的烦恼
+#侧滑关闭Activity依赖库，使用简单，几行代码解决你的烦恼
 
 #引入依赖库
 ```
@@ -17,3 +17,7 @@ dependencies {
         this.registerActivityLifecycleCallbacks(ActivityStack.getInstance());
     }
   ```
+#不需要侧滑关闭Activity只需要设置
+```
+setSwipeBackEnable(false);
+```
