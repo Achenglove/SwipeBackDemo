@@ -17,6 +17,18 @@ dependencies {
         this.registerActivityLifecycleCallbacks(ActivityStack.getInstance());
     }
   ```
+#BaseActivity
+```
+public abstract class BaseActivity extends SwipeBackActivity {
+    public Activity mActivity;
+    public Intent intent;
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(getLayoutId());
+    }
+}
+```
 #不需要侧滑关闭Activity只需要设置
 ```
 setSwipeBackEnable(false);
