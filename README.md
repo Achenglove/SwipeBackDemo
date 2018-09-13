@@ -5,7 +5,7 @@
 #引入依赖库
 ```
 dependencies {
-	        implementation 'com.github.Achenglove:SwipeBackDemo:v1.0'
+	        implementation 'com.github.Achenglove:SwipeBackDemo:v1.0.1'
 	}
   ```
   
