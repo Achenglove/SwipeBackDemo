@@ -2,6 +2,7 @@ package com.ccr.swipe.view;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
@@ -12,7 +13,7 @@ import android.view.View;
  * @Description
  */
 
-public class SwipeBackActivity extends AppCompatActivity {
+public class SwipeBackActivity extends FragmentActivity {
     private SwipeBackHelper mSwipeBackHelper;
 
     @Override
